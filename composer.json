@@ -1,0 +1,19 @@
+{
+  "name": "vendor_name/autoloadhometask",
+  "type": "project",
+  "description": "home task for autoload",
+  "license": "proprietary",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/",
+      "App\\": "app/"
+    }
+  },
+  "require": {
+  }
+}
